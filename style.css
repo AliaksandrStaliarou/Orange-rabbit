@@ -98,6 +98,7 @@ body {
     margin-left: 30px;
     text-align: center;
 }
+
 .menu a {
     display: inline-block;
     font-family: Calibri, sans-serif;
@@ -106,8 +107,38 @@ body {
     color: #6e6d6b;
 }
 
-.menu a:hover {
-    color: #fb9c06;
+.menu li:hover a {
+    color: #fb9c06;;
+}
+
+.menu li:hover a.home {
+    background-position: 0 -97px ;
+    width: 55px;
+    height: 47px;
+}
+
+.menu li:hover a.about {
+    background-position: -67px -101px ;
+    width: 23px;
+    height: 44px;
+}
+
+.menu li:hover a.work {
+    background-position: -103px -101px ;
+    width: 43px;
+    height: 43px;
+}
+
+.menu li:hover a.blog {
+    background-position: -158px -107px ;
+    width: 40px;
+    height: 40px;
+}
+
+.menu li:hover a.contact {
+    background-position: -204px -111px ;
+    width: 50px;
+    height: 34px;
 }
 
 
@@ -122,20 +153,8 @@ body {
     height: 47px;
 }
 
-.home:hover {
-    background-position: 0 -97px ;
-    width: 55px;
-    height: 47px;
-}
-
 .about {
     background-position: -71px -3px ;
-    width: 23px;
-    height: 44px;
-}
-
-.about:hover {
-    background-position: -67px -101px ;
     width: 23px;
     height: 44px;
 }
@@ -146,20 +165,8 @@ body {
     height: 43px;
 }
 
-.work:hover {
-    background-position: -103px -101px ;
-    width: 43px;
-    height: 43px;
-}
-
 .blog {
     background-position: -156px -8px ;
-    width: 40px;
-    height: 40px;
-}
-
-.blog:hover {
-    background-position: -158px -107px ;
     width: 40px;
     height: 40px;
 }
@@ -170,50 +177,10 @@ body {
     height: 34px;
 }
 
-.contact:hover {
-    background-position: -204px -111px ;
-    width: 50px;
-    height: 34px;
-}
-
 .line {
     background: #fcba50;
     height: 5px;
 }
-
-
-
-.home2 {
-    background-image: url(img/sprites.png);
-    background-position: 0 -97px ;
-    width: 55px;
-    height: 47px;
-}
-
-.about2 {
-    background-position: -67px -101px ;
-    width: 23px;
-    height: 44px;
-}
-
-.work2 {
-    background-position: -103px -101px ;
-    width: 43px;
-    height: 43px;
-}
-
-.blog2 {
-    background-position: -158px -107px ;
-    width: 40px;
-    height: 40px;
-}
-
-.contact2 {
-    background-position: -204px -111px ;
-    width: 50px;
-    height: 34px;
-}
-
 
 
 @media all and (max-width: 740px) {
